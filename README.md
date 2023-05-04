@@ -12,7 +12,7 @@
 
 **Thanks to :**
 
-- **KANKOSHEV : https://github.com/KANKOSHEV (For the overlay)**
+- **IRAIZO : https://github.com/iraizo/nvidia-overlay-hijack (For the overlay)**
 - **SYAZ : https://github.com/SYAZ999 | https://www.unknowncheats.me/forum/members/2629119.html (who allowed me to bypass some issues I encountered)**
 
 ![alt text](https://github.com/UnnamedZ03/DBD-external-base/blob/main/image%201.png)
