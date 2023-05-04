@@ -17,6 +17,6 @@
 
 ![alt text](https://github.com/UnnamedZ03/DBD-external-base/blob/main/image%201.png)
 
-![alt text](https://github.com/UnnamedZ03/DBD-external-base/blob/main/image%202.png)
+![alt text](https://github.com/UnnamedZ03/DBD-external-base/blob/main/image%202.jpg)
 
 ![alt text](https://github.com/UnnamedZ03/DBD-external-base/blob/main/image%203.png)
