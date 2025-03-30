@@ -11,12 +11,12 @@ float ToMeters(float x)
 
 struct Rotator
 {
-	float Pitch, Yaw, Roll;
+	double Pitch, Yaw, Roll;
 };
 
 struct Vector3
 {
-	float x, y, z;
+	double x, y, z;
 	Vector3 operator-(Vector3 ape)
 	{
 		return { x - ape.x, y - ape.y, z - ape.z };
@@ -27,17 +27,17 @@ struct Vector3
 		return { x + ape.x, y + ape.y, z + ape.z };
 	}
 
-	Vector3 operator*(float ape)
+	Vector3 operator*(double ape)
 	{
 		return { x * ape, y * ape, z * ape };
 	}
 
-	Vector3 operator/(float ape)
+	Vector3 operator/(double ape)
 	{
 		return { x / ape, y / ape, z / ape };
 	}
 
-	Vector3 operator/=(float ape)
+	Vector3 operator/=(double ape)
 	{
 		x /= ape;
 		y /= ape;
@@ -56,32 +56,32 @@ struct Vector3
 		return { x -= ape.x, y -= ape.y, z -= ape.z };
 	}
 
-	float Length()
+	double Length()
 	{
 		return sqrt((x * x) + (y * y) + (z * z));
 	}
 
-	float Length2D()
+	double Length2D()
 	{
 		return sqrt((x * x) + (y * y));
 	}
 
-	float DistTo(Vector3 ape)
+	double DistTo(Vector3 ape)
 	{
 		return (*this - ape).Length();
 	}
 
-	float Dist2D(Vector3 ape)
+	double Dist2D(Vector3 ape)
 	{
 		return (*this - ape).Length2D();
 	}
 
-	float Dot(Vector3& v)
+	double Dot(Vector3& v)
 	{
 		return x * v.x + y * v.y + z * v.z;
 	}
 };
 struct Vector4
 {
-	float w, x, y, z;
+	double w, x, y, z;
 };
